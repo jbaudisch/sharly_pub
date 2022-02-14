@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "name": "Wasserkocher",
+      "groups": "Kueche",
+      "states": "ON"
+    },
+    {
+      "name": "Milchaufschaeumer",
+      "groups": "Kueche",
+      "states": "ON"
+    },
+    {
+      "name": "Kaffeemaschine",
+      "groups": "Kueche",
+      "states": "ON"
+    },
+    {
+      "name": "Mikrowelle",
+      "groups": "Kueche",
+      "states": "ON"
+    },
+    {
+      "name": "Kueche_Kuehlschrank_DoorState",
+      "groups": "Kueche",
+      "states": ["CLOSED", "OPEN"]
+    },
+    {
+      "name": "KellerFlur_Bewegungsmelder1_Motion",
+      "groups": "Keller",
+      "states": "ON"
+    },
+    {
+      "name": "KellerFlur_Bewegungsmelder2_Motion",
+      "groups": "Keller",
+      "states": "ON"
+    },
+    {
+      "name": "KellerFlur_Bewegungsmelder3_Motion",
+      "groups": ["Keller", "Treppe" ],
+      "states": "ON"
+    },
+    {
+      "name": "KellerFlurKlein_Bewegungsmelder1_Motion",
+      "groups": ["Keller", "Garten"],
+      "states": "ON"
+    },
+    {
+      "name": "KellerFlurKlein_Bewegungsmelder2_Motion",
+      "groups": ["Keller"],
+      "states": "ON"
+    },
+    {
+      "name": "KellerFlurKlein_Bewegungsmelder3_Motion",
+      "groups": ["Keller"],
+      "states": "ON"
+    },
+    {
+      "name": "Flur_Bewegungsmelder1_Motion",
+      "groups": ["Eingang", "Flure", "Treppe"],
+      "states": "ON"
+    }, 
+    {
+      "name": "Flur_Bewegungsmelder2_Motion",
+      "groups": ["Flure", "Schlafzimmer"],
+      "states": "ON"
+    }, 
+    {
+      "name": "Flur_Bewegungsmelder3_Motion",
+      "groups": ["Flure"],
+      "states": "ON"
+    },
+    {
+      "name": "Flur_Multisensor_MotionAlarm",
+      "groups": ["Treppe"],
+      "states": "ON"
+    }, 
+    {
+      "name": "Vorgarten_Haustuer_Tuerkontakt",
+      "groups": ["Eingang"],
+      "states": ["0", "1"]
+    }, 
+    {
+      "name": "Garten_Kellertuer_Tuerkontakt",
+      "groups": ["Garten"],
+      "states": ["0", "1"]
+    },
+    {
+      "name": "Vorgarten_Beleuchtung_Haustuer_Bewegungsmelder_MotionAlarm",
+      "groups": ["Eingang"],
+      "states": "ON"
+    },
+
+    {
+      "name": "Vorgarten_Beleuchtung_Garage_Bewegungsmelder_MotionAlarm",
+      "groups": ["Eingang"],
+      "states": "ON"
+    },
+
+
+    {
+      "name": "Garten_Terrasse_Beleuchtung_Bewegungsmelder_MotionAlarm",
+      "groups": ["Garten"],
+      "states": "ON"
+    },           
+    {
+      "name": "Kellerbad_SingleSwitch2_Switch1",
+      "groups": ["Keller"],
+      "states": ["OFF", "ON"]
+    },      
+    {
+      "name": "Badezimmer_Bewegungsmelder_Bewegung",
+      "groups": ["Schlafzimmer"],
+      "states": "ON"
+    },
+    {
+      "name": "Badezimmer_SingleSwitch2_Switch1",
+      "groups": ["Schlafzimmer"],
+      "states": ["ON", "OFF"]
+    },    
+    {
+      "name": "Schlafzimmer_Bewegungsmelder1_Motion",
+      "groups": ["Schlafzimmer"],
+      "states": "ON"
+    },   
+    {
+      "name": "Schlafzimmer_Bewegungsmelder2_Motion",
+      "groups": ["Schlafzimmer"],
+      "states": "ON"
+    }
+  ],
+  "rejected_states": ["UNDEF", "INVALID"]
+}
